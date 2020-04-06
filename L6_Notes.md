@@ -11,9 +11,9 @@
 2. Correcting for Distortion:
 - **Measuring Distortion:** the first step is to "measure" the distortion and come up with a transform function to "undistort" the image. To do so, we can take pictures of known shape - a chessboard image is usually used to achieve this.  
 - **Camera Calibration Function in OpenCV:**  
-'''python
+```python
 ret, mtx, dist, rvecs, tvecs = cv2.calibrateCamera(objpoints, imgpoints, gray.shape[::-1], None, None)
-'''
+```
 objpoints - Vector of vectors of the "world" coordinates of the internal corners of the chessboard.
 imgpoints -  Vector of vectors of the actual 2D coordinates corresponding to the internal corners found on any image. These coordinates can be retrieved by using:
 '''python
