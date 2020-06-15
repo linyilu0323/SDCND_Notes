@@ -2,7 +2,8 @@
 
 ## Class Notes
 
-1. Gradient and Sobel Operator:
+### 1. Gradient and Sobel Operator:
+
 - We know that most car lanes appear to be "almost vertical" on camera images - this is something we can utilize to distinguish car lanes with others.
 - Sobel Operator: this is the key part of the Canny edge detection algorithm, the mathematics is simply taking the derivative of the image in different directions:
 ```python
@@ -17,7 +18,8 @@ sxbinary = np.zeros_like(scaled_sobel)
 sxbinary[(scaled_sobel >= thresh_min) & (scaled_sobel <= thresh_max)] = 1
 ```
 
-2. Magnitude and Direction of Gradient
+### 2. Magnitude and Direction of Gradient
+
 - **The magnitude of gradient:**  
 You can combine the sobel gradients on x and y directions to get the magnitude of gradient.  
 - **The direction of gradient:**  
@@ -30,7 +32,8 @@ mag_sobel = np.sqrt(sobel_x**2 + sobel_y**2)
 dir_sobel = np.arctan2(sobel_y, sobel_x)
 ```
 
-3. Color Spaces
+### 3. Color Spaces
+
 - **Notes working with RGB color space:**  
 If you read in an image using ```matplotlib.image.imread()``` you will get an RGB image, but if you read it in using OpenCV ```cv2.imread()``` this will give you a BGR image.  
 This is critical as when you need to convert RGB (or BGR) images to another color space of your choice using ```cv2.cvtColor``` command, you will want to make sure you specified the correct input.  
@@ -38,5 +41,8 @@ This is critical as when you need to convert RGB (or BGR) images to another colo
 - **Alternatives to RGB color space:**  
 In addition to RGB color space, which builds on 3 basic colors (red, green, and blue), it is sometimes more preferable to use other color spaces for easier processing and better separation. They include:  
 *HLS Color Space*: HLS = Hue, Lightness, and Saturation.
-*HSV Color Space*: HSV = Hue, Saturation, and Value. 
+*HSV Color Space*: HSV = Hue, Saturation, and Value.
 Read more about [HLS and HSV](https://en.wikipedia.org/wiki/HSL_and_HSV).
+
+4. Combine Color and Gradient Thresholding
+
