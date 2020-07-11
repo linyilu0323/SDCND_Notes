@@ -2,11 +2,11 @@
 
 ## Class Notes
 
-### 1. Deep 
+### 1. Intro to Kalman Filter
 
-dfsdf
 
-### 2. Tensor Flow:
+
+### 2. Tensor Flow
 
 - **Install TensorFlow:**
 
