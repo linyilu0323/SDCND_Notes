@@ -5,7 +5,7 @@
 ### 1. Intro to Kalman Filter
 
 - Resources - Wikipedia (very concise derivations): [Kalman Filter](https://en.wikipedia.org/wiki/Kalman_filter)
-- Resources - iLectureOnline (detailed lectures): [Lectures in The Kalman Filter]([http://www.ilectureonline.com/lectures/subject/SPECIAL%20TOPICS/26/190](http://www.ilectureonline.com/lectures/subject/SPECIAL TOPICS/26/190)
+- Resources - iLectureOnline (detailed lectures): [Lectures in The Kalman Filter](http://www.ilectureonline.com/lectures/subject/SPECIAL TOPICS/26/190)
 - Marked Equation:
 
 <img src="./img/L24_KF_Eqn_marked.png" alt="KF Equations marked" style="zoom:100%;" />
