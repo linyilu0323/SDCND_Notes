@@ -3,6 +3,8 @@
 
 ---
 
+## ===== Semester 1 =====
+
 ### Section 1: Computer Vision
 
 - Lesson 4: Computer Vision Fundamentals [Link to notes](https://github.com/linyilu0323/SDCND_Notes/blob/master/L4_ComputerVisionFundamentals.md)
@@ -38,13 +40,22 @@
 - Lesson 21: Kalman Filters
 - Lesson 22: C++ Checkpoint
 - Lesson 23: Geometry and Trigonometry Refresher
-- Lesson 24: Extended Kalman Filters 
+- Lesson 24: Extended Kalman Filters [Link to notes](https://github.com/linyilu0323/SDCND_Notes/blob/master/L24_KalmanFilter.md)
 - **Lesson 25 (Project)**: Extended Kalman Filters Project [@Github](https://github.com/linyilu0323/CarND_P5_ExtendedKalmanFilter)
-  - In this project, 
+  - In this project, you will utilize a kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. 
 
 ---
 
+## ===== Semester 2 =====
+
 ### Section 4: Localization
+
+- Lesson 1: Introduction to Localization
+- Lesson 2: Markov Localization
+- Lesson 3: Motion Models
+- Lesson 4: Particle Filters
+- Lesson 5: Implementation of Particle Filters
+- **Lesson 6 (Project):** Kidnapped Vehicle Project
 
 
 
