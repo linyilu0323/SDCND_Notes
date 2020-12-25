@@ -64,7 +64,7 @@
 
  - Recursive Structure for **Motion Model:**
 
-    ![img](/Users/yilulin/Documents/img/14-l-explain-recursive-structure-.00-01-55-15.still004.png)
+    ![img](./img/14-l-explain-recursive-structure-.00-01-55-15.still004.png)
     
     - Discretized Motion Model:
     
@@ -74,13 +74,13 @@
     
       ​	*p*(*x**t*∣*x**t*−1(*i*),*u**t*,*m*)
     
- - Recursive Structure for **Observation Model:** ![img](/Users/yilulin/Documents/img/20-i-markov-assumption-for-observation-model-first-try.00-01-18-09.still003.png)
+ - Recursive Structure for **Observation Model:** ![img](./img/20-i-markov-assumption-for-observation-model-first-try.00-01-18-09.still003.png)
 
 ### 4. Bayes Filter for Localization (Markov Localization)
 
 With all above derivations put together, we get the Markov Localization formula:
 
-![img](/Users/yilulin/Documents/img/21-i-finalize-the-bayes-localization-filter.00-01-35-19.still003.png)
+![img](./img/21-i-finalize-the-bayes-localization-filter.00-01-35-19.still003.png)
 
 - The motion model describes the prediction step of the filter while the observation model is the update step.
 - The state estimation using the Bayes filter is dependent upon the interaction between prediction (motion model) and update (observation model steps) and all the localization methods discussed so far are realizations of the Bayes filter.

@@ -51,8 +51,30 @@
 ### Section 4: Localization
 
 - Lesson 1: Introduction to Localization
-- Lesson 2: Markov Localization
+- Lesson 2: Markov Localization [Link to notes](https://github.com/linyilu0323/SDCND_Notes/blob/master/S1L24_KalmanFilter.md)
 - Lesson 3: Motion Models
 - Lesson 4: Particle Filters
-- Lesson 5: Implementation of Particle Filters
-- **Lesson 6 (Project):** Kidnapped Vehicle Project
+- Lesson 5: Implementation of Particle Filters [Link to notes](https://github.com/linyilu0323/SDCND_Notes/blob/master/S1L24_KalmanFilter.md)
+- **Lesson 6 (Project):** Kidnapped Vehicle Project [@Github](https://github.com/linyilu0323/CarND_P6_Localization)
+
+### Section 5: Planning
+
+- Lesson 7: Search
+- Lesson 8: Prediction
+- Lesson 9: Behavior Planning
+- Lesson 10: Trajectory Generation
+- **Lesson 11 (Project):** Highway Driving
+
+### Section 6: Controls
+
+- Lesson 12: PID Control
+
+- **Lesson 13 (Project):** PID Controller
+
+### Section 7: ROS - Robot Operating System
+
+- Lesson 16: Autonomous Vehicle Architecture
+- Lesson 17: Introduction to ROS
+- Lesson 18: Packages & Catkin Workspaces
+- Lesson 19: Writing ROS Nodes
+- **Capstone Project:** Program an Autonomous Vehicle

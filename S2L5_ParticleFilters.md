@@ -54,7 +54,7 @@
 
 Flowchart:
 
-![img](/Users/yilulin/Documents/img/02-l-pseudocode.00-00-47-13.still006.png)
+![02-l-pseudocode.00-00-47-13.still006](./img/02-l-pseudocode.00-00-47-13.still006.png)
 
 Step-by-Step Guide:
 
@@ -70,7 +70,7 @@ Step-by-Step Guide:
 
   - Homogeneous transformation: translate the observation from vehicle (in vehicle coordinates) to a real-world coordinates:
 
-    ![image-20200904122956120](/Users/yilulin/Documents/img/homo_xform.png)
+    ![image-20200904122956120](./img/homo_xform.png)
 
   - Calculate the particle weight: use multivariate guassian distribution to model the weights for a particle (with x and y position errors to the landmark).
 
