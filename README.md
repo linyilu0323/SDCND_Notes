@@ -51,23 +51,23 @@
 ### Section 4: Localization
 
 - Lesson 1: Introduction to Localization
-- Lesson 2: Markov Localization [Link to notes](https://github.com/linyilu0323/SDCND_Notes/blob/master/S1L24_KalmanFilter.md)
+- Lesson 2: Markov Localization [Link to notes](S1L24_KalmanFilter.md)
 - Lesson 3: Motion Models
 - Lesson 4: Particle Filters
-- Lesson 5: Implementation of Particle Filters [Link to notes](https://github.com/linyilu0323/SDCND_Notes/blob/master/S1L24_KalmanFilter.md)
+- Lesson 5: Implementation of Particle Filters [Link to notes](S1L24_KalmanFilter.md)
 - **Lesson 6 (Project):** Kidnapped Vehicle Project [@Github](https://github.com/linyilu0323/CarND_P6_Localization)
 
 ### Section 5: Planning
 
 - Lesson 7: Search
-- Lesson 8: Prediction
-- Lesson 9: Behavior Planning
-- Lesson 10: Trajectory Generation
-- **Lesson 11 (Project):** Highway Driving
+- Lesson 8: Prediction [Link to notes](S2L7_PathPlanning.md)
+- Lesson 9: Behavior Planning  [Link to notes](S2L9_BehaviorPlanning.md)
+- Lesson 10: Trajectory Generation [Link to notes](S2L10_TrajectoryGeneration.md)
+- **Lesson 11 (Project):** Highway Driving [@Github](https://github.com/linyilu0323/CarND_P7_PathPlanning)
 
 ### Section 6: Controls
 
-- Lesson 12: PID Control
+- Lesson 12: PID Control [Link to notes](S2L12_Controls.md)
 
 - **Lesson 13 (Project):** PID Controller
 

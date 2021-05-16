@@ -15,7 +15,7 @@
 
   - Pseudocode
 
-    ```
+    ```pseudocode
     def transition_function(predictions, current_fsm_state, current_pose, cost_functions, weights):
         # only consider states which can be reached from current FSM state.
         possible_successor_states = successor_states(current_fsm_state)
@@ -103,7 +103,7 @@
     - `LENGTH`: The length of the vehicle used in the bicycle model.
     - `NUM_THETA_CELLS`: The number of cells a circle is divided into. This is used in keeping track of which States we have visited already.
 
-    ```
+    ```pseudocode
     def expand(state, goal):
         next_states = []
         for delta in range(-35, 40, 5): 
