@@ -43,8 +43,9 @@
 - Lesson 24: Extended Kalman Filters [Link to notes](https://github.com/linyilu0323/SDCND_Notes/blob/master/S1L24_KalmanFilter.md)
 - **Lesson 25 (Project)**: Extended Kalman Filters Project [@Github](https://github.com/linyilu0323/CarND_P5_ExtendedKalmanFilter)
   - In this project, you will utilize a kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements.
+  
+    
 
----
 
 ## ===== Semester 2 =====
 
@@ -56,6 +57,9 @@
 - Lesson 4: Particle Filters
 - Lesson 5: Implementation of Particle Filters [Link to notes](S1L24_KalmanFilter.md)
 - **Lesson 6 (Project):** Kidnapped Vehicle Project [@Github](https://github.com/linyilu0323/CarND_P6_Localization)
+  - In this project you will implement a 2 dimensional particle filter in C++, and try to find the exact location of the kidnapped vehicle with sensor data.
+
+---
 
 ### Section 5: Planning
 
@@ -64,17 +68,25 @@
 - Lesson 9: Behavior Planning  [Link to notes](S2L9_BehaviorPlanning.md)
 - Lesson 10: Trajectory Generation [Link to notes](S2L10_TrajectoryGeneration.md)
 - **Lesson 11 (Project):** Highway Driving [@Github](https://github.com/linyilu0323/CarND_P7_PathPlanning)
+  - In this project, your goal is to design a path planner that is able to create smooth, safe paths for the car to follow along a 3 lane highway with traffic.
+
+---
 
 ### Section 6: Controls
 
 - Lesson 12: PID Control [Link to notes](S2L12_Controls.md)
+- **Lesson 13 (Project):** PID Controller [@Github](https://github.com/linyilu0323/CarND_P8_PID_Control)
+  - In this project you will fine tune a PID controller to keep the car within the lanes and drive as fast as possible.
 
-- **Lesson 13 (Project):** PID Controller
+---
 
 ### Section 7: ROS - Robot Operating System
 
-- Lesson 16: Autonomous Vehicle Architecture
-- Lesson 17: Introduction to ROS
-- Lesson 18: Packages & Catkin Workspaces
-- Lesson 19: Writing ROS Nodes
-- **Capstone Project:** Program an Autonomous Vehicle
+- Lesson 14: Autonomous Vehicle Architecture [Link to notes](S2L14_SystemIntegration.md)
+- Lesson 15: Introduction to ROS
+- Lesson 16: Writing ROS Nodes
+- Lesson 17: Packages & Catkin Workspaces [Link to notes](S2L15_ROS.md)
+
+
+## Capstone Project
+- **Project: System Integration** [@Github](https://github.com/linyilu0323/CarND_Capstone)
